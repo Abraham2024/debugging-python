@@ -40,3 +40,21 @@ for d in "friend":
                               print(i.split(","))
                                #string concatenation
                                 print(a + " " + b )
+                                #how to combine strings and integers, we use {} as an argument
+                                 # and format()
+                                  age = "27"
+                                   j = "john is {} years old"
+                                    print(j.format(age))
+                                     height = "5.7"
+                                      k ="Ade is {}m tall"
+                                       print(k.format(height))
+                                        age = "38"
+                                         height = "6.1"
+                                          position = "11"
+                                           l = "John is {} years old, {}m tall and he came out {}th in class"
+                                            print(l.format(age, height, position))
+                                             quantity = "10"
+                                              item = "101"
+                                               price = "150000"
+                                                m = "i will pay #{2} for {1} bags of rice in {0} section of the warehouse"
+                                                 print(m.format(quantity, item, price))
